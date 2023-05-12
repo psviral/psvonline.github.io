@@ -14,57 +14,52 @@
   <meta name="HandheldFriendly" content="true">
   <title>Klar HTML Template - Frontpage one</title>
   <link rel="stylesheet" href="css/theme.min.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+  </style>
 
   <style>
-    /* inter-300 - latin */
-    @font-face {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 300;
-      font-display: swap;
-      src: local(''),
-        url('fonts/inter-v12-latin-300.woff2') format('woff2'),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('fonts/inter-v12-latin-300.woff') format('woff');
-      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+
+
+
+.col-11 h1{
+ /* Fallback: Set a background color. */
+ background-color: red;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(90deg, rgb(189, 33, 241) 30%, rgb(255, 255, 255) 40%, rgba(39,219,255,1) 100%);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+
+}
+     
+     
+
+    body{
+      font-family: 'League Spartan', sans-serif;
     }
 
-    /* inter-400 - latin */
-    @font-face {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 400;
-      font-display: swap;
-      src: local(''),
-        url('fonts/inter-v12-latin-regular.woff2') format('woff2'),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('fonts/inter-v12-latin-regular.woff') format('woff');
-      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    }
+    html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
-    @font-face {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 500;
-      font-display: swap;
-      src: local(''),
-        url('fonts/inter-v12-latin-500.woff2') format('woff2'),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('fonts/inter-v12-latin-500.woff') format('woff');
-      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    }
 
-    @font-face {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 700;
-      font-display: swap;
-      src: local(''),
-        url('fonts/inter-v12-latin-700.woff2') format('woff2'),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('fonts/inter-v12-latin-700.woff') format('woff');
-      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    }
+
+     
   </style>
 
 
@@ -84,6 +79,8 @@
         </svg>
         <span class="ms-md-1 mt-1 fw-bolder me-md-5">ProGenZe</span>
       </a>
+
+    
 
       <ul class="navbar-nav mx-auto mb-2 mb-lg-0 list-group list-group-horizontal">
         <li class="nav-item">
@@ -116,7 +113,7 @@
       <div class="position-absolute w-100 h-100 bg-black opacity-75 top-0 start-0"></div>
       <div class="container py-vh-4 position-relative mt-5 px-vw-5 text-center">
         <div class="row d-flex align-items-center justify-content-center py-vh-5">
-          <div class="col-12 col-xl-10">
+          <div class="col-11 col-xl-6">
             <span class="h5 text-secondary fw-lighter"></span>
             <h1 class="display-huge mt-3 mb-3 lh-1">ProGenZe.</h1>
           </div>
@@ -138,21 +135,102 @@
 
     </div>
 
+  
     <div class="w-100 position-relative bg-black text-white bg-cover d-flex align-items-center">
+      
       <div class="container-fluid px-vw-5">
+        
         <div class="position-absolute w-100 h-50 bg-dark bottom-0 start-0"></div>
+        
         <div class="row d-flex align-items-center position-relative justify-content-center px-0 g-5">
-          <div class="col-12 col-lg-6">
-            <img src="ezgif.com-gif-maker.webp" width="2280" height="1732" alt="abstract image"
-              class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up">
+          
+        
+        
+          <div class="col-12 col-lg-5">
+            <div class="mob">
+         <p>
+              DOPOMINE
+              <br> DETOX
+         </p>
           </div>
-          <div class="col-12 col-md-6 col-lg-3">
-            <img src="ezgif.com-gif-maker.webp" width="1116" height="1578" alt="abstract image"
-              class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" data-aos-duration="2000">
+            <img src="__MACOSX\img\webp\6.png" width="2280"  alt="abstract image"
+              class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up"data-aos-duration="2400">
+
           </div>
+              <STYLE>
+
+
+@media screen and (max-width:1000px) {
+
+ .mob {
+  z-index: 10;
+  margin-top: 3%;
+margin-left: 2%;
+font-size: 14vw;
+position: absolute;
+background-image: white;
+background-color: rgb(255, 255, 255);
+
+  /* Create the gradient. */
+  background-image: white;
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+
+
+font-family: 'League Spartan', sans-serif;
+  }
+}
+
+
+
+@media screen and (min-width:1000px) {
+.col-12 .mob p{
+
+z-index: 10;
+margin-top: 3%;
+margin-left: 1%;
+font-size: 6vw;
+position: absolute;
+background-image: white;
+background-color: rgb(255, 255, 255);
+
+  /* Create the gradient. */
+  background-image: white;
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+
+
+font-family: 'League Spartan', sans-serif;
+}
+
+}
+              </STYLE>
+     
           <div class="col-12 col-md-6 col-lg-3">
-            <img src="ezgif.com-gif-maker.webp" width="1116" height="848" alt="abstract image"
-              class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" data-aos-duration="3000">
+            <img src="__MACOSX\img\webp\1.png" width="2280"  alt="abstract image"
+              class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" data-aos-duration="2500">
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <img src="__MACOSX\img\4.png" width="2280"  alt="abstract image"
+              class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" data-aos-duration="2700">
           </div>
         </div>
       </div>
@@ -200,7 +278,7 @@
           <div class="col-12 col-md-6">
             <div class="card bg-transparent mb-5" data-aos="zoom-in-up">
               <div class="bg-dark shadow rounded-5 p-0">
-                <img src="ezgif.com-gif-maker.webp" width="582" height="327" alt="abstract image"
+                <img src="__MACOSX\img\webp\1.png" width="582" height="327" alt="abstract image"
                   class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
                 <div class="p-5">
                   <h2 class="fw-lighter">yaha pe  dolor est</h2>
@@ -213,7 +291,7 @@
 
             <div class="card bg-transparent" data-aos="zoom-in-up">
               <div class="bg-dark shadow rounded-5 p-0">
-                <img src="ezgif.com-gif-maker.webp" width="582" height="442" alt="abstract image"
+                <img src="__MACOSX\img\webp\2.png" width="582" height="442" alt="abstract image"
                   class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
                 <div class="p-5">
                   <h2 class="fw-lighter">Ipsum dolor est</h2>
@@ -231,7 +309,7 @@
             </div>
             <div class="card bg-transparent mb-5 mt-5" data-aos="zoom-in-up">
               <div class="bg-dark shadow rounded-5 p-0">
-                <img src="ezgif.com-gif-maker.webp" width="582" height="390" alt="abstract image"
+                <img src="__MACOSX\img\webp\3.png" width="582" height="390" alt="abstract image"
                   class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
                 <div class="p-5">
                   <h2 class="fw-lighter">Ipsum dolor est</h2>
@@ -244,7 +322,7 @@
 
             <div class="card bg-transparent" data-aos="zoom-in-up">
               <div class="bg-dark shadow rounded-5 p-0">
-                <img src="ezgif.com-gif-maker.webp" width="582" height="327" alt="abstract image"
+                <img src="__MACOSX\img\webp\4.png" width="582" height="327" alt="abstract image"
                   class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
                 <div class="p-5">
                   <h2 class="fw-lighter">Ipsum dolor est</h2>
@@ -254,6 +332,10 @@
                 </div>
               </div>
             </div>
+
+            
+            
+            
           </div>
         </div>
 
@@ -280,6 +362,8 @@
         </div>
       </div>
     </div>
+
+    
   </div>
 </div>
 
